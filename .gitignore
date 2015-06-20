@@ -11,5 +11,3 @@ dist
 /features/project/test/*.el
 .ecukes-failing-scenarios
 
-# Npm
-/node_modules
