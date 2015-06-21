@@ -8,3 +8,17 @@
 Emacs major mode for [jq](http://stedolan.github.io/jq/).
 
 This is a work in progress, please feel free to chip in.
+
+## Usage
+
+You can launch it whether by calling `jq` that will prompting you a file
+or by calling `jq-mode` on an existing JSON buffer.
+
+Here are the main command if the mode, which mostly enable you to tweak
+different jq modes:
+
+- <kbd>C-c C-s</kbd> : `jq-toggle-slurp`
+- <kbd>C-c C-p</kbd> : `jq-toggle-pretty`
+- <kbd>C-c C-r</kbd> : `jq-toggle-raw`
+- <kbd>C-c C-j</kbd> : `jq-toggle-join`
+- <kbd>C-c C-q</kbd> : `jq-quit`
