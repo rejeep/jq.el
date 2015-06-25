@@ -37,7 +37,7 @@
             (:send-report nil)
             (:report-file "/tmp/undercover-report.json"))
 (require 'ert)
-(require 'jq (f-expand "jq" jq-root-path))
+(require 'jq)
 
 (provide 'test-helper)
 ;;; test-helper.el ends here
