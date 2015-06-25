@@ -11,6 +11,10 @@
 
 (add-to-list 'load-path jq-root-path)
 
+(require 'undercover)
+(undercover "*.el" "jq/*.el"
+            (:exclude "*-test.el")
+            (:report-file "/tmp/undercover-report.json"))
 (require 'jq)
 (require 'espuds)
 (require 'ert)
