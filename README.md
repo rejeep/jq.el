@@ -7,6 +7,8 @@
 
 Emacs major mode for [jq](http://stedolan.github.io/jq/).
 
+![Demo](demo.gif)
+
 This is a work in progress, please feel free to chip in.
 
 ## Usage
