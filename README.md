@@ -1,9 +1,11 @@
-[WIP] jq.el
+[DEPRECATED] jq.el
 ===========
 
 [![Build Status](https://travis-ci.org/rejeep/jq.el.svg)](https://travis-ci.org/rejeep/jq.el) [![Coverage Status](https://coveralls.io/repos/rejeep/jq.el/badge.svg)](https://coveralls.io/r/rejeep/jq.el) [![Tag Version](https://img.shields.io/github/tag/rejeep/jq.el.svg)](https://github.com/rejeep/jq.el/tags) [![License] (http://img.shields.io/:license-gpl3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 <!-- reade to insert melpa badge:
 [![MELPA](http://melpa.org/packages/jq-badge.svg)](http://melpa.org/#/jq) [![MELPA stable](http://stable.melpa.org/packages/jq-badge.svg)](http://stable.melpa.org/#/jq) -->
+
+(Please use https://github.com/ljos/jq-mode instead)
 
 Emacs major mode for [jq](http://stedolan.github.io/jq/).
 
